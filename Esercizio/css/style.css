@@ -28,9 +28,8 @@ body{
 .logo{
     background-color: black;
     width: 60%;
-    padding: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    padding: 30px;
+
 }
 #section1{
     text-align: center;
@@ -135,9 +134,10 @@ footer .p1{
     margin-top: 30px;
     color: #c8e7f0;
 }
-.spazio{
-    margin: 0 90px;
-    border: 1px solid #c8e7f0;
+.linea{
+    border-bottom: 1px solid #c8e7f0;
+    display: inline-block;
+    padding-bottom: 50px;
 }
 .material-symbols-outlined{
     vertical-align: text-bottom;
