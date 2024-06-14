@@ -18,7 +18,6 @@ body{
     font-size: 1.2rem;
     line-height: 1.65rem;
     color: #393d41;
-
 }
 
 #logo{
@@ -27,16 +26,17 @@ body{
 }
 .logo{
     background-color: black;
-    width: 60%;
-    padding: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    width: 200px;
+    padding: 30px;
+    margin-left: 30px;
+
 }
 #section1{
     text-align: center;
     background-image: url(/Esercizio/images/banner.jpg);
-    background-size: contain;
-    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
     padding: 60px;
     box-sizing: content-box;
 }
@@ -62,11 +62,21 @@ body{
     font-size: 1.2em;
     line-height: 2rem;
 }
-#section2, #section3, #section4{
+#section3, #section4{
     text-align: center;
     background-size: contain;
     box-sizing: content-box;
     padding: 60px;
+}
+#section2{
+    text-align: center;
+    margin: 80px;
+}
+.primo-blocco{
+    display: inline-block;
+    text-align: start;
+    margin-left: 50px;
+
 }
 #section2 h2, #section4 h2{
     font-family: "Montserrat", sans-serif;
@@ -78,7 +88,7 @@ body{
     border-radius: 50%;
     box-sizing: border-box;
     width: 380px;
-    
+    display: inline-block;
 }
 #section3{
     background-color: #e22d0e;
@@ -104,6 +114,7 @@ blockquote{
 .card{
     border: 1px solid #dee1e3;
     margin-bottom: 30px;
+    display: inline-block;
 }
 .pcimage{
     width: 380px;
